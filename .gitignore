@@ -57,3 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+#mdboostrap
+css/
+font/
+img/
+js/
+sass/
