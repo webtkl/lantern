@@ -20,4 +20,4 @@ function getMeasurement() {
         });
 }
 
-getMeasurement();
+var intervalID = setinterval(getMeasurement(), 1000 * 60 * 60 * 8);

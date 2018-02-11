@@ -37,6 +37,7 @@ h5 {
 }
 
 body {
+    height: 100vh;
     background: url(../img/nova.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
