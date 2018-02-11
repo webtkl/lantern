@@ -14,7 +14,7 @@ function getMeasurement() {
 
             console.log('------------------------------------');
 
-            setProgress((138 - Math.floor(weightKG)) * 4, progress)
+            setProgress(dateLocal, (138 - Math.floor(weightKG)) * 4, progress)
             console.log(progress);
             console.log('------------------------------------');
         });
