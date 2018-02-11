@@ -1,0 +1,66 @@
+/* Your custom styles */
+
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    }
+}
+
+h1 {
+    letter-spacing: 8px;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
+
+body {
+    background: url(../img/nova.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-bent {
+    border-radius: 100px;
+    background-color: black
+}
+
+.cbody-bent {
+    border: 1px solid green;
+    border-radius: 0px 0px 50px 50px
+}
+
+.data-header {
+    color: green;
+    font-size: 6pt
+}
+
+.img-bent {
+    border-radius: 100px 100px 0px 0px !important;
+    background-color: black;
+    border: 1px solid green;
+}
