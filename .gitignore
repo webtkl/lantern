@@ -61,5 +61,11 @@ typings/
 css/
 font/
 img/
-js/
+js/bootstrap.js
+js/bootstrap.min.js
+js/jquery-3.2.1.min.js
+js/mdb.js
+js/mdb.min.js
+js/popper.min.js
 sass/
+
